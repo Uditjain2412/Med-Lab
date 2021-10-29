@@ -1,0 +1,9 @@
+.navbar-link:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.navbar-link a {
+  color: black;
+  text-decoration: none;
+}

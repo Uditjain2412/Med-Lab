@@ -1,0 +1,22 @@
+#home {
+  background: rgba(255, 166, 0, 0.137);
+  height: 100%;
+}
+
+.welcome button {
+  background: orange;
+  border: none;
+}
+
+.welcome button:hover {
+  background: rgba(255, 166, 0, 0.8);
+}
+
+.welcome-1 div {
+  margin-top: 30%;
+}
+
+.welcome-2 img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
