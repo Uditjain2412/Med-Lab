@@ -1,5 +1,4 @@
-import { GMailService } from "PATH TO MailService" 
-                              // put in your path here
+import { GMailService } from "c:/Users/sherv/Desktop/Med-Lab/src/backend/MailService"
  
 let gmailService = new GMailService(); 
 
@@ -15,6 +14,6 @@ for(var index in Emails)
 { 
     gmailService.sendMail( 
         '< ${Emails[index]} ',  
-        'REALLY CRITICAL',  
-        'Your Grandpa is in a really serious condition and you need to take them to the hospital!'); 
+        'Hello',  
+        'Hello from gmailService'); 
 }
