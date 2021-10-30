@@ -1,4 +1,5 @@
-import { GMailService } from "c:/Users/sherv/Desktop/Med-Lab/src/backend/MailService"
+import { GMailService } from "PATH TO MailService" 
+                              // put in your path here
  
 let gmailService = new GMailService(); 
 
